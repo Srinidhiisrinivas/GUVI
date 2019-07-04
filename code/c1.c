@@ -2,16 +2,16 @@
 #include<conio.h>
 int main()
 {
-int aa,bb,cc;
+int aaa,bbb,ccc;
 printf("Enter the three numbers aa and bb and cc:");
-scanf("%d%d%d",&aa,&bb,&cc);
-if((aa>bb)&&(aa>cc))
+scanf("%d%d%d",&aaa,&bbb,&ccc);
+if((aaa>bbb)&&(aaa>ccc))
  printf("%d",aa);
  {
-  if((bb>aa)&&(bb>cc))
-   printf("%d",bb);
+  if((bbb>aaa)&&(bbb>ccc))
+   printf("%d",bbb);
   else
-     printf("%d",cc);
+     printf("%d",ccc);
   }
 return 0;
 }
