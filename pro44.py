@@ -1,9 +1,9 @@
 ar,br,cr,d = map(int, input().split())
-x = list(map(int, input().split()))
+xii = list(map(int, input().split()))
 z = []
 i = 0
-for i in range(0, len(x)):
-    for j in range(i, len(x)):
-        for k in range(j, len(x)):
-            z.append(sum((br*x[i], cr*x[j], d*x[k])))
+for i in range(0, len(xii)):
+    for j in range(i, len(xii)):
+        for k in range(j, len(xii)):
+            z.append(sum((br*xii[i], cr*xii[j], d*xii[k])))
 print(max(z))
